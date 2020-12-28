@@ -7,20 +7,20 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #4F8EFF;
+@primaryColor: #4078F2;
 @linkHoverColor: @primaryColor;
 
 
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : #171A21;
+@sidebarBackground     : #212121;
 @sidebarMenuItemActiveBackground: lighten(#242833, 10%);
 @sidebarMenuSectionColor: @invertedUnselectedTextColor;
 @sidebarMenuItemColor  : @invertedLightTextColor;
 @sidebarMenuActionColor : @invertedDisabledTextColor;
 @sidebarMenuActionHoverColor : @invertedLightTextColor;
-@sidebarSyncStatusViewBackground: #12151A;
+@sidebarSyncStatusViewBackground: #101010;
 @sidebarSyncStatusViewTextColor: @invertedMutedTextColor;
 @sidebarSyncStatusViewDetailColor: @invertedUnselectedTextColor;
 @sidebarScrollbarWidth: 6px;
@@ -38,8 +38,8 @@
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: rgb(245, 245, 244);
-@noteListBarPinnedSectionHeaderBackground: #e6e6e6;
+@noteListBarBackground: @darkWhite;
+@noteListBarPinnedSectionHeaderBackground: #37474F;
 @noteListBarPinnedSectionHeaderBorderBottom: none;
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid #ccc;
 @noteListViewItemColor: @mutedTextColor;
@@ -70,17 +70,17 @@
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: rgb(245, 245, 244);
+@preferencesSidebarBackground: @darkWhite;
 @preferencesSidebarItemActiveBackground: rgba(79, 142, 255, 0.2);
-@preferencesViewBackground: rgb(255, 255, 255);
+@preferencesViewBackground: @white;
 
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: darkgray;
-@taskIconOnHold: orange;
-@taskIconCompleted: limegreen;
-@taskIconDropped: lightcoral;
+@taskIconActive: @grey;
+@taskIconOnHold: @orange;
+@taskIconCompleted: @green;
+@taskIconDropped: @lightRed;
 
 /*-------------------
   Task Progress View

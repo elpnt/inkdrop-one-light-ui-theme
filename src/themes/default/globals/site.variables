@@ -17,7 +17,7 @@
 @googleFontSizes   : '400,700,400italic,700italic';
 @googleSubset      : 'latin';
 
-@googleProtocol    : 'https://';
+@googleProtocol    : 'https:';
 @googleFontRequest : '@{googleFontName}:@{googleFontSizes}&subset=@{googleSubset}';
 
 
@@ -75,7 +75,7 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : @white;
+@inputBackground        : #FAFAFA;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
@@ -93,10 +93,10 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: #526FFF;
 
 /* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
+@focusedFormMutedBorderColor: #03A9F4;
 
 /*-------------------
         Sizes
@@ -121,7 +121,7 @@
         Page
 --------------------*/
 
-@pageBackground      : #FFFFFF;
+@pageBackground      : #FAFAFA;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
@@ -138,7 +138,7 @@
        Links
 --------------------*/
 
-@linkColor           : #4183C4;
+@linkColor           : #4078F2;
 @linkUnderline       : none;
 @linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
 @linkHoverUnderline  : @linkUnderline;
@@ -172,7 +172,7 @@
   Highlighted Text
 --------------------*/
 
-@highlightBackground      : #CCE2FF;
+@highlightBackground      : #B3E5FC;
 @highlightColor           : @textColor;
 
 @inputHighlightBackground : rgba(100, 100, 100, 0.4);
@@ -220,54 +220,54 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #F2711C;
-@yellow           : #FBBD08;
-@olive            : #B5CC18;
-@green            : #21BA45;
-@teal             : #00B5AD;
-@blue             : #2185D0;
-@violet           : #6435C9;
-@purple           : #A333C8;
-@pink             : #E03997;
-@brown            : #A5673F;
-@grey             : #767676;
-@black            : #1B1C1D;
+@red              : #CA1243;
+@orange           : #FF9800;
+@yellow           : #FDD835;
+@olive            : #558B2F;
+@green            : #50A14F;
+@teal             : #009688;
+@blue             : #4078F2;
+@violet           : #4A148C;
+@purple           : #A626A4;
+@pink             : #EC407A;
+@brown            : #986801;
+@grey             : #A0A1A7;
+@black            : #494B53;
 
 /*---  Light Colors  ---*/
-@lightRed         : #FF695E;
-@lightOrange      : #FF851B;
-@lightYellow      : #FFE21F;
-@lightOlive       : #D9E778;
-@lightGreen       : #2ECC40;
-@lightTeal        : #6DFFFF;
-@lightBlue        : #54C8FF;
-@lightViolet      : #A291FB;
-@lightPurple      : #DC73FF;
-@lightPink        : #FF8EDF;
-@lightBrown       : #D67C1C;
-@lightGrey        : #DCDDDE;
-@lightBlack       : #545454;
+@lightRed         : #E45649;
+@lightOrange      : #C18401;
+@lightYellow      : #FFEE58;
+@lightOlive       : #8BC34A;
+@lightGreen       : #B2FF59;
+@lightTeal        : #4DB6AC;
+@lightBlue        : #B6E9ED;
+@lightViolet      : #7B1FA2;
+@lightPurple      : #E040FB;
+@lightPink        : #F06292;
+@lightBrown       : #DE9C0D;
+@lightGrey        : #C2C2C3;
+@lightBlack       : #696C77;
 
 /*---   Neutrals  ---*/
-@fullBlack        : #000000;
-@offWhite         : #F9FAFB;
-@darkWhite        : #F3F4F5;
-@midWhite         : #DCDDDE;
-@white            : #FFFFFF;
+@fullBlack        : #494B53;
+@offWhite         : #F5F5F5;
+@darkWhite        : #EEEEEE;
+@midWhite         : #E0E0E0;
+@white            : #FAFAFA;
 
 /*--- Colored Backgrounds ---*/
-@redBackground    : #FFE8E6;
-@orangeBackground : #FFEDDE;
-@yellowBackground : #FFF8DB;
-@oliveBackground  : #FBFDEF;
-@greenBackground  : #E5F9E7;
-@tealBackground   : #E1F7F7;
-@blueBackground   : #DFF0FF;
-@violetBackground : #EAE7FF;
-@purpleBackground : #F6E7FF;
-@pinkBackground   : #FFE3FB;
-@brownBackground  : #F1E2D3;
+@redBackground    : #FFEBEE;
+@orangeBackground : #FFF3E0;
+@yellowBackground : #FFFDE7;
+@oliveBackground  : #F9FBE7;
+@greenBackground  : #E8F5E9;
+@tealBackground   : #E0F2F1;
+@blueBackground   : #E3F2FD;
+@violetBackground : #F3E5F5;
+@purpleBackground : #EDE7F6;
+@pinkBackground   : #FCE4EC;
+@brownBackground  : #EFEBE9;
 
 /*--- Colored Headers ---*/
 @redHeaderColor    : darken(@redTextColor, 5);
@@ -285,10 +285,10 @@
 /*--- Colored Text ---*/
 @redTextColor    : @red;
 @orangeTextColor : @orange;
-@yellowTextColor : #B58105; // Yellow text is difficult to read
-@oliveTextColor  : #8ABC1E; // Olive is difficult to read
-@greenTextColor  : #1EBC30; // Green is difficult to read
-@tealTextColor   : #10A3A3; // Teal text is difficult to read
+@yellowTextColor : #FBC02D;
+@oliveTextColor  : @olive;
+@greenTextColor  : @green;
+@tealTextColor   : @teal;
 @blueTextColor   : @blue;
 @violetTextColor : @violet;
 @purpleTextColor : @purple;
@@ -361,14 +361,14 @@
 @negativeTextColor       : #9F3A38;
 
 /* Info */
-@infoColor              : #31CCEC;
+@infoColor              : @teal;
 @infoBackgroundColor    : #F8FFFF;
 @infoBorderColor        : #A9D5DE;
 @infoHeaderColor        : #0E566C;
 @infoTextColor          : #276F86;
 
 /* Warning */
-@warningColor           : #F2C037;
+@warningColor           : @yellow;
 @warningBorderColor     : #C9BA9B;
 @warningBackgroundColor : #FFFAF3;
 @warningHeaderColor     : #794B02;
