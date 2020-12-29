@@ -734,7 +734,7 @@ input::selection {
   --primary-color: #4078F2;
   --secondary-color: #494B53;
   --light-primary-color: #B6E9ED;
-  --light-secondary-color: #ff0000;
+  --light-secondary-color: #696C77;
   /*--------------
     Page Heading
    ---------------*/
@@ -864,7 +864,7 @@ input::selection {
   --light-pink: #F06292;
   --light-brown: #DE9C0D;
   --light-grey: #C2C2C3;
-  --light-black: #ff0000;
+  --light-black: #696C77;
   /*---   Neutrals  ---*/
   --full-black: #494B53;
   --off-white: #F5F5F5;
@@ -3033,7 +3033,7 @@ input::selection {
 .ui.inverted.black.basic.buttons .button:focus,
 .ui.inverted.black.basic.button:focus {
   box-shadow: 0px 0px 0px 2px #35373e inset !important;
-  color: #ff0000 !important;
+  color: #696C77 !important;
 }
 
 .ui.inverted.black.basic.buttons .active.button,
@@ -5252,8 +5252,8 @@ input::selection {
 .ui.inverted.secondary.buttons .button,
 .ui.inverted.secondary.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #ff0000 inset !important;
-  color: #ff0000;
+  box-shadow: 0px 0px 0px 2px #696C77 inset !important;
+  color: #696C77;
 }
 
 .ui.inverted.secondary.buttons .button:hover,
@@ -5270,22 +5270,22 @@ input::selection {
 
 .ui.inverted.secondary.buttons .button:hover,
 .ui.inverted.secondary.button:hover {
-  background-color: #ff1a1a;
+  background-color: #747885;
 }
 
 .ui.inverted.secondary.buttons .button:focus,
 .ui.inverted.secondary.button:focus {
-  background-color: #ff2929;
+  background-color: #7b7f8e;
 }
 
 .ui.inverted.secondary.buttons .active.button,
 .ui.inverted.secondary.active.button {
-  background-color: #ff1a1a;
+  background-color: #747886;
 }
 
 .ui.inverted.secondary.buttons .button:active,
 .ui.inverted.secondary.button:active {
-  background-color: #ff3333;
+  background-color: #828591;
 }
 
 /* Inverted Basic */
@@ -5301,29 +5301,29 @@ input::selection {
 .ui.inverted.secondary.basic.buttons .button:hover,
 .ui.inverted.secondary.buttons .basic.button:hover,
 .ui.inverted.secondary.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #ff1a1a inset !important;
-  color: #ff0000 !important;
+  box-shadow: 0px 0px 0px 2px #747885 inset !important;
+  color: #696C77 !important;
 }
 
 .ui.inverted.secondary.basic.buttons .button:focus,
 .ui.inverted.secondary.basic.buttons .button:focus,
 .ui.inverted.secondary.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #ff2929 inset !important;
-  color: #ff0000 !important;
+  box-shadow: 0px 0px 0px 2px #7b7f8e inset !important;
+  color: #696C77 !important;
 }
 
 .ui.inverted.secondary.basic.buttons .active.button,
 .ui.inverted.secondary.buttons .basic.active.button,
 .ui.inverted.secondary.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #ff1a1a inset !important;
-  color: #ff0000 !important;
+  box-shadow: 0px 0px 0px 2px #747886 inset !important;
+  color: #696C77 !important;
 }
 
 .ui.inverted.secondary.basic.buttons .button:active,
 .ui.inverted.secondary.buttons .basic.button:active,
 .ui.inverted.secondary.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #ff3333 inset !important;
-  color: #ff0000 !important;
+  box-shadow: 0px 0px 0px 2px #828591 inset !important;
+  color: #696C77 !important;
 }
 
 /*---------------
@@ -7623,13 +7623,13 @@ h5.ui.header .sub.header {
 }
 
 .ui.inverted.attached.header {
-  background: #ff0000 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #696C77 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
   border-color: transparent;
 }
 
 .ui.inverted.block.header {
-  background: #ff0000 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #696C77 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 
@@ -8509,7 +8509,7 @@ i.black.icon {
 }
 
 i.inverted.black.icon {
-  color: #ff0000 !important;
+  color: #696C77 !important;
 }
 
 i.inverted.bordered.black.icon,
@@ -27877,7 +27877,7 @@ Floated Menu / Item
 
 .ui.test.ad {
   position: relative;
-  background: #ff0000;
+  background: #696C77;
 }
 
 .ui.test.ad:after {
@@ -31333,7 +31333,7 @@ a.ui.card:hover,
 
 .ui.slider.checkbox input:checked ~ .box:before,
 .ui.slider.checkbox input:checked ~ label:before {
-  background-color: #ff0000 !important;
+  background-color: #696C77 !important;
 }
 
 .ui.slider.checkbox input:checked ~ .box:after,
@@ -35574,7 +35574,7 @@ a.ui.nag {
 }
 
 .ui.black.inverted.progress .bar {
-  background-color: #ff0000;
+  background-color: #696C77;
 }
 
 /*--------------
@@ -36589,7 +36589,7 @@ a.ui.nag {
 /* Whole Page */
 
 body.pushable {
-  background: #ff0000 !important;
+  background: #696C77 !important;
 }
 
 /* Page Context */
