@@ -8,7 +8,7 @@ One Light UI theme for Inkdrop. Inspired by [One Light UI](https://github.com/at
 
 ## Full pack of One Light theme
 
-- [elpnt/inkdrop-one-light-syntax-theme](https://github.com/elpnt/inkdrop-one-light-syntax-theme/blob/main/package.json)
+- [elpnt/inkdrop-one-light-syntax-theme](https://github.com/elpnt/inkdrop-one-light-syntax-theme)
 - [elpnt/inkdrop-one-preview-theme](https://github.com/elpnt/inkdrop-one-preview-theme)
 
 ## Related
