@@ -223,7 +223,7 @@
 @red              : #CA1243;
 @orange           : #FF9800;
 @yellow           : #FDD835;
-@olive            : #558B2F;
+@olive            : #9CCC65;
 @green            : #50A14F;
 @teal             : #009688;
 @blue             : #4078F2;
@@ -238,7 +238,7 @@
 @lightRed         : #E45649;
 @lightOrange      : #C18401;
 @lightYellow      : #FFEE58;
-@lightOlive       : #8BC34A;
+@lightOlive       : #AED581;
 @lightGreen       : #B2FF59;
 @lightTeal        : #4DB6AC;
 @lightBlue        : #B6E9ED;
