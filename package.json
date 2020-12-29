@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "theme": "ui",
   "description": "One Light UI Theme for Inkdrop",
+  "repository": "https://github.com/elpnt/inkdrop-one-light-ui-theme",
+  "author": "elpnt<quantumular@gmail.com>",
   "styleSheets": [
     "theme.min.css"
   ],
